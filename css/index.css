@@ -1,0 +1,249 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap");
+
+:root {
+  --main-heading-font-family: "Poppins", sans-serif;
+  --text-font-family: "Montserrat", sans-serif;
+  --copyright-text-family: "Roboto", sans-serif;
+  --heading-color: rgba(255, 255, 255, 1);
+  --button-color: rgba(250, 74, 12, 1);
+  --how-app-works-heading-color: rgba(0, 0, 0, 0.8);
+  --how-app-works-subheading-color: rgba(37, 43, 66, 1);
+  --main-text-color: rgba(115, 115, 115, 1);
+  --nav-text-color: rgba(37, 43, 66, 1);
+}
+
+.app:first-of-type {
+  background-image: url(../img/bg-banner.png);
+  color: var(--heading-color);
+  text-align: center;
+  padding: 80px 0 162px;
+  background-size: cover;
+  background-position: center;
+}
+
+.container {
+  max-width: 1105px;
+  margin: 0 auto;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 40px auto;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 28px;
+  text-align: center;
+  letter-spacing: 0.2px;
+  color: var(--nav-text-color);
+}
+
+.nav-li {
+  display: inline-block;
+}
+
+.nav-link {
+  color: var(--nav-text-color);
+  text-decoration: none;
+}
+
+.nav-link:hover {
+  color: var(--button-color);
+}
+
+.nav-li:not(:last-of-type) {
+  margin-right: 90px;
+}
+
+.app-pretitle {
+  font-family: var(--text-font-family);
+  font-style: normal;
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 36px;
+  letter-spacing: 0.1px;
+}
+
+.title {
+  font-family: var(--main-heading-font-family);
+  font-style: normal;
+  font-size: 58px;
+  font-weight: bold;
+  max-width: 750px;
+  line-height: 80px;
+  margin: 10px auto;
+}
+
+.app-text {
+  font-family: var(--text-font-family);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 36px;
+  margin-bottom: 54px;
+  letter-spacing: 0.2px;
+}
+
+.button {
+  color: var(--heading-color);
+  border-radius: 30px;
+  width: 236px;
+  height: 68px;
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 36px;
+  letter-spacing: 0.1px;
+}
+
+.button:first-of-type {
+  background: var(--button-color);
+  border: 1px solid var(--button-color);
+  margin-right: 67px;
+}
+
+button:last-of-type {
+  background: none;
+  border: 1px solid var(--heading-color);
+}
+
+/* How the app works */
+
+.how-app-works-title {
+  text-align: center;
+  font-family: var(--main-heading-font-family);
+  font-style: normal;
+  font-weight: 600;
+  font-size: 44px;
+  line-height: 45px;
+  letter-spacing: 0.1px;
+  color: var(--how-app-works-heading-color);
+  margin: 60px 0 0;
+}
+.mobile,
+.mobile-right {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.mobile {
+  margin: 70px 0 110px;
+}
+
+.mobile-right {
+  margin-bottom: 191px;
+}
+
+.mobile-pretitle {
+  font-family: var(--text-font-family);
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 36px;
+  letter-spacing: 0.1px;
+  color: var(--button-color);
+}
+
+.mobile-title {
+  font-family: var(--text-font-family);
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 57px;
+  letter-spacing: 0.2px;
+  color: var(--how-app-works-subheading-color);
+  max-width: 600px;
+}
+
+.mobile-text {
+  font-family: var(--text-font-family);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 38px;
+  letter-spacing: 0.2px;
+  color: var(--main-text-color);
+  max-width: 500px;
+}
+
+/* Order Now Section */
+
+.app:last-of-type {
+  background-image: url(../img/bg-banner-order-now.png);
+  background-position: center;
+  background-size: cover;
+  padding: 131px 0 130px;
+  text-align: center;
+}
+
+.order-now-heading {
+  font-family: var(--text-font-family);
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 57px;
+  text-align: center;
+  letter-spacing: 0.2px;
+  color: var(--heading-color);
+}
+
+.order-now-text {
+  font-family: var(--text-font-family);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 38px;
+  text-align: center;
+  letter-spacing: 0.2px;
+  color: var(--heading-color);
+  margin: 10px 0 59px;
+}
+
+.order-now-button {
+  font-family: var(--text-font-family);
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 28px;
+  letter-spacing: 0.2px;
+  color: var(--heading-color);
+  border-radius: 10px;
+}
+
+.order-now-button:first-of-type {
+  width: 142px;
+  height: 64px;
+  background-color: var(--button-color);
+  border: 1px solid var(--button-color);
+  padding: 18px 31px;
+  margin: 0px 16px;
+}
+
+.order-now-button:last-of-type {
+  width: 173px;
+  height: 60px;
+  background-color: none;
+  border: 1px solid var(--heading-color);
+}
+
+/* Footer */
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 72px 0 32px;
+  font-family: var(--copyright-text-family);
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 18px;
+  letter-spacing: 0.1px;
+  color: #5c5c5c;
+}
